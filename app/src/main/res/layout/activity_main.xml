@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="40dp"
+        />
+    <EditText
+        android:id="@+id/txt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="40dp"
+        />
+    <EditText
+        android:id="@+id/txt_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your chinese level"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="8dp"
+        android:textSize="17dp"
+        />
+        <CheckBox
+            android:id="@+id/chk_hsk1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="HSK 1"
+            android:checked="true"
+            android:onClick="checkSelectedBox"
+            />
+        <CheckBox
+            android:id="@+id/chk_hsk2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="HSK 2"
+            android:onClick="checkSelectedBox"
+            />
+        <CheckBox
+            android:id="@+id/chk_hsk3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="HSK 3"
+            android:onClick="checkSelectedBox"
+            />
+        <CheckBox
+            android:id="@+id/chk_hsk4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="HSK 4"
+            android:onClick="checkSelectedBox"
+            />
+        <CheckBox
+            android:id="@+id/chk_hsk5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="HSK 5"
+            android:onClick="checkSelectedBox"
+            />
+        <CheckBox
+            android:id="@+id/chk_hsk6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="HSK 6"
+            android:onClick="checkSelectedBox"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="8dp"
+                />
+            <Button
+                android:id="@+id/btn_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                android:onClick="clearData"
+                android:text="Clear"
+                />
+        </LinearLayout>
+
+
+</LinearLayout>
